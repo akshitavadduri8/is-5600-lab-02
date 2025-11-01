@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const saveButton = document.querySelector('#btnSave');
 
 
+
   generateUserList(userData, stocksData);
 
   deleteButton.addEventListener('click', (event) => {
